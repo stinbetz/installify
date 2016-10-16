@@ -1,0 +1,10 @@
+#! /bin/bash
+
+mkdir -p $HOME/Library/Python/2.7/lib/python/site-packages/
+
+cp usercustomize.py $HOME/Library/Python/2.7/lib/python/site-packages/usercustomize.py
+cp python-startup.py $HOME
+
+cd
+
+echo export PYTHONSTARTUP=$HOME/python-startup.py
